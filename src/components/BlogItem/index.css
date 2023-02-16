@@ -1,0 +1,25 @@
+/* Write your CSS code here */
+.blog-item {
+  display: flex;
+  justify-content: space-between;
+
+  margin-right: 20px;
+  height: 80px;
+  width: 80%;
+  border-bottom: solid 1px #9aa5b1;
+}
+@media (max-width: 576px) {
+  .blog-item {
+    height: 100px;
+    width: 100%;
+  }
+  .description {
+    font-size: small;
+  }
+  .publishedDate {
+    font-size: small;
+  }
+  .title {
+    font-size: small;
+  }
+}
